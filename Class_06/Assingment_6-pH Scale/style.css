@@ -1,0 +1,75 @@
+body{
+    background-color:  rgb(171, 171, 171);
+}
+
+.heading{
+    background-color:rgb(230, 230, 230);
+    text-align: center;
+    margin: 5px;
+    height: 55px;
+}
+
+.phscale{
+    color: white;
+}
+
+.alkaline1{
+    background-color: rgb(5, 80, 242);
+    padding:6px;
+}
+.alkaline2{
+    background-color: rgb(35, 103, 250);
+    padding:6px;
+}
+.alkaline3{
+    background-color: rgb(65, 123, 249);
+    padding:6px;
+}
+.alkaline4{
+    background-color: rgb(108, 154, 254);
+    padding:6px;
+}
+.alkaline5{
+    background-color: rgb(137, 174, 254);
+    padding:6px;
+}
+.alkaline6{
+    background-color: rgb(159, 187, 246);
+    padding:6px;
+}
+.alkaline7{
+    background-color: rgb(188, 208, 252);
+    padding:6px;
+}
+.alkaline8{
+    background-color: rgb(10, 228, 10);
+    padding:6px;
+}
+.acidic2{
+    background-color: rgb(253, 200, 221);
+    padding:6px;
+}
+.acidic3{
+    background-color: rgb(254, 162, 199);
+    padding:6px;
+}
+.acidic4{
+    background-color:rgb(251, 140, 184);
+    padding:6px;
+}
+.acidic5{
+    background-color:rgb(248, 121, 172);
+    padding:6px;
+}
+.acidic6{
+    background-color: rgb(245, 95, 155);
+    padding:6px;
+}
+.acidic7{
+    background-color: rgb(246, 65, 138);
+    padding:6px;
+}
+.acidic8{
+    background-color: rgb(255, 0, 125);
+    padding:6px;
+}

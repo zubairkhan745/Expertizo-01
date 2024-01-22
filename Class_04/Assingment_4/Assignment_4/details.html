@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        .fieldset{
+            width: 500px;
+            align-items: center;
+        }
+       .fname input{
+        width: 500px;
+       }
+       .lastname input{
+        width: 500px;
+       }
+       .cnic input{
+        width: 500px;
+       }
+       .social_link input{
+        width: 500px;
+       }
+    </style>
+</head>
+<body>
+    <div class="fieldset">
+        <h1>Personal Details</h1>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <form action="">
+                <div class="fname">
+                    <label for="fname">First Name:</label><br />
+                    <input type="text" id="fname" placeholder="Enter First Name">
+                </div><br />
+                <div class="lastname">
+                    <label for="lastname">Last Name:</label><br />
+                    <input type="text" id="lastname" placeholder="Enter Last Name">
+                </div><br />
+                <div class="cnic">
+                    <label for="cnic">Confirm CNIC:</label><br />
+                    <input type="text" id="cnic">
+                </div><br />
+                <div class="social_link">
+                    <label for="social">Social Link:</label><br />
+                    <input type="text" id="social" placeholder="Enter Facebook/LinkedIn Profile picture">
+                </div><br />
+                <a href="account.html"><img width="120px" src="Images/back.png" alt="backImage"></a>
+                <a href="review.html"><img width="120px" src="Images/next.png" alt="NextImage"></a>
+            </form>
+        </fieldset>
+</body>
+</html>

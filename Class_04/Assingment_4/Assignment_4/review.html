@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        .fieldset {
+            width: 500px;
+            align-items: center;
+        }
+
+        /* .check input{
+        width: 500px;
+       } */
+        .option input {
+            width: 500px;
+        }
+
+        .textarea input {
+            width: 500px;
+        }
+
+        .social_link input {
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fieldset">
+        <h1>Your Review</h1>
+        <fieldset>
+            <legend>Your Review</legend>
+            <form action="">
+                <div class="option">
+                    <span>How did you hear about us?</span>
+                    <select>
+                        <option value="Select" selected>Select Your Options</option>
+                        <option value="Family">Family</option>
+                        <option value="Friends">Friends</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="Ads">Ads</option>
+                    </select>
+                </div><br />
+                <div class="check">
+                    <p>Would You Visit Again?</p>
+                    <input type="radio" name="confirm" id="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="confirm" id="no">
+                    <label for="no">No</label>
+                    <input type="radio" name="confirm" id="may">
+                    <label for="may">May Be</label>
+                </div><br />
+                <div class="textarea">
+                    <label for="textarea">Comments:</label><br />
+                    <textarea cols="30" rows="10" placeholder="Enter Your Comment Here">
+                    </textarea>
+                </div><br />
+                <div class="documents">
+                    <label for="documents">Documents:</label><br />
+                    <input type="file" id="document">
+                </div><br />
+                <div class="check">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Sign me up for email updates</label>
+                </div><br />
+                <a href="details.html"><img width="120px" src="Images/back.png" alt="backImage"></a>
+                <a href="index.html"><img width="120px" src="Images/submit.png" alt="NextImage"></a>
+            </form>
+        </fieldset>
+</body>
+
+</html>
