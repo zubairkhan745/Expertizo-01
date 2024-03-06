@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Todo App in JS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://cdn.jim-nielsen.com/macos/512/microsoft-to-do-2019-10-08.png" type="image/x-icon">
+  </head>
+  <body>
+      <div class="container my-3">
+        <h1>Todo App</h1>
+       <div class="form-group">
+         <label for=""></label>
+         <input type="text" id="add-task" 
+           class="form-control" placeholder="Enter Your Task">
+         <small id="helpId" class="form-text text-muted">Note Your daily task</small>
+       </div>
+        <button class="btn btn-success" onclick="addtodo()">Add</button>
+        <button class="btn btn-danger" onclick="deleteall()">Delete All</button>
+        <h2 class="my-3">Your Tasks</h2>
+     <ul></ul>
+      </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
+
